@@ -87,57 +87,20 @@ glass-morphism cards, and animations that move with intention.
 
 ## 📁 Project Structure
 Car_dealership_mark1/
-├── public/                      # Static assets
-│   └── videos/                  # Background MP4 files
-│       ├── hero-bg.mp4
-│       ├── manifesto-bg.mp4
-│       ├── experiences-bg.mp4
-│       ├── fleet-apex-gt.mp4
-│       ├── fleet-obsidian-rs.mp4
-│       ├── fleet-phantom-s.mp4
-│       ├── academy-bg.mp4
-│       ├── interior-tour.mp4
-│       └── workshop-bg.mp4
-├── src/
-│   ├── components/
-│   │   ├── Header.tsx
-│   │   ├── Hero.tsx
-│   │   ├── StaggeredMenu.tsx
-│   │   ├── FleetOverlay.tsx
-│   │   ├── FleetVideo.tsx
-│   │   ├── BrandManifesto.tsx
-│   │   ├── Experiences.tsx
-│   │   ├── CarSpecs.tsx
-│   │   ├── SpecDrawer.tsx
-│   │   ├── Testimonials.tsx
-│   │   ├── Membership.tsx
-│   │   ├── Academy.tsx
-│   │   ├── BookingForm.tsx
-│   │   ├── Faq.tsx
-│   │   ├── PressStrip.tsx
-│   │   ├── Footer.tsx
-│   │   ├── RippleTrail.tsx
-│   │   └── CookieConsent.tsx
-│   ├── pages/
-│   │   ├── Blog.tsx
-│   │   ├── JourneysPage.tsx
-│   │   ├── MembershipPage.tsx
-│   │   └── AboutPage.tsx
-│   ├── data/
-│   │   ├── cars.ts
-│   │   └── testimonials.ts
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
-├── dist/                        # Production build output
+├── Car_Dealership_mark2/     ← subfolder
+├── Car_dealership_mark1/     ← subfolder  
+├── dist/                     ← build output
+├── public/                   ← static assets
+├── src/                      ← source code
+├── .gitignore
 ├── index.html
-├── package.json
+├── npm
 ├── package-lock.json
+├── package.json
 ├── tsconfig.json
 ├── tsconfig.tsbuildinfo
-├── vite.config.ts
 ├── vercel.json
-└── README.md
+└── vite.config.ts
 
 ---
 
