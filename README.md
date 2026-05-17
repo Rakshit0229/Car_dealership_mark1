@@ -86,23 +86,30 @@ glass-morphism cards, and animations that move with intention.
 ---
 
 ## 📁 Project Structure
+
+```
 Car_dealership_mark1/
-├── Car_Dealership_mark2/     ← subfolder
-├── Car_dealership_mark1/     ← subfolder  
-├── dist/                     ← build output
-├── public/                   ← static assets
-├── src/                      ← source code
+├── Car_Dealership_mark2/
+├── Car_dealership_mark1/
+├── dist/
+├── public/
+│   └── videos/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
 ├── .gitignore
 ├── index.html
-├── npm
-├── package-lock.json
 ├── package.json
+├── package-lock.json
 ├── tsconfig.json
 ├── tsconfig.tsbuildinfo
 ├── vercel.json
 └── vite.config.ts
-
----
+```
 
 ## 🚗 The Fleet
 
@@ -113,7 +120,6 @@ Car_dealership_mark1/
 | **Phantom S** | 6.75L V12 | 563 BHP | 4.6s | 250 km/h |
 
 ---
-
 ## ⚙️ Getting Started
 
 ### Prerequisites
